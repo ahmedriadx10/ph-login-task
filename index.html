@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/login.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <title>My Image Seeker</title>
+</head>
+<body>
+  
+<header>
+<nav>
+  <h2>My Image Seeker</h2>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#form_area">Form</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+</header>
+<main>
+
+<!-- hero section-->
+
+<section id="hero">
+
+  <div class="search_needed">
+
+<h4>Search Your Image Here</h4>
+<div class="main_search">
+<input type="search" placeholder="Search Image" id="search">
+<button type="button">Search</button>
+</div>
+
+  </div>
+
+  <div class="image_show_main">
+<div class="searched_img">
+  <img src="images/hero-tv.png" alt="">
+</div>
+<div class="about_img">
+<h2>Samsung H3400 M</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis adipisci, numquam amet, iure cum totam fugit assumenda similique aliquid eaque dignissimos molestiae debitis fugiat animi?</p>
+<button type="button" id="dwld_button"><a href="images/hero-tv.png" download="tv-image" >Download Image</a>
+</button>
+</div>
+
+
+
+  </div>
+<div class="more_link">
+  <a href="#">For more click here</a>
+</div>
+
+</section>
+
+<!-- form section -->
+
+<section id="form_area">
+  <div class="form_main_container">
+    <div class="about_form">
+    <h2>Fill Up This Form</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi quos voluptatibus ea iure dolores necessitatibus sit placeat officiis sed ratione.</p>
+  </div>
+<div class="main_form">
+  <h5>Feedback Form:</h5>
+  <form action="">
+<div class="inputs">
+  <label for="name">Name:</label>
+<input type="text" name="name" id="name" placeholder="Your Name"
+</div>
+<div class="inputs">
+  <label for="date">Date:</label>
+  <input type="date" name="date" id="date">
+</div>
+<div class="inputs">
+<label for="comment">Comment:</label>
+<textarea cols="40" rows="6"></textarea>
+</div>
+
+<input type="submit" value="Submit" id="sbbtn">
+
+  </form></div>
+  </div>
+
+</section>
+
+
+
+
+</main>
+
+</body>
+</html>
