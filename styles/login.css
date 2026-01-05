@@ -241,6 +241,7 @@ textarea{
   background-color:  #050527;
   color: #fff;
   font-size: 17px;
+  border-radius: 5px;
 }
 
 
@@ -252,5 +253,9 @@ textarea{
   border:none;
   cursor: pointer;
 }
+
+
+
+
 
 
